@@ -1,0 +1,180 @@
+
+    @font-face{
+       
+        font-family: p;
+        src: url(WholecarWhite_PERSONAL_USE_ONLY.Otf);
+
+    }
+
+    .header2{
+
+        h1{
+            text-decoration: black 2px;
+        }
+    
+    }
+    
+    header{
+    text-decoration: underline rgb(0, 0, 0) 2px;
+    border-radius: 50px;
+    background-color: rgb(0, 68, 128);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    border: rgb(0, 0, 0) solid 7px;
+    font-size: 1em;
+}
+
+footer{
+    border-radius: 50px;
+    background-color: rgb(0, 68, 128);
+    color: white; 
+    text-align: center;
+    padding: 30px;
+    border: rgb(0, 0, 0) solid 7px;
+}
+
+main{
+    color:white;
+    background-color:rgb(0, 68, 128);
+    border-radius: 50px;
+    text-align: center;
+    border: rgb(0, 0, 0) solid 14px;   
+}
+
+.main2{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 68, 128);
+    border-radius: 50px;
+    text-align: center;
+    border: rgb(0, 0, 0) solid 14px; 
+}
+
+.caixa1{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+ 
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    flex-direction: row;
+    gap:1%;
+    
+}
+
+.caixinha {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.caixinha2{
+    flex-grow: 2;
+    color: white;
+    
+}
+
+img{
+    border: rgb(255, 255, 255) solid 5px;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    font-size: 11pt;
+}
+
+.footer2{
+
+    color: rgb(255, 255, 255);
+    font-size:xx-large;
+    font-family: p;
+
+    
+
+}
+
+.div2{
+
+    font-size:xx-small;
+}
+
+@media screen and (max-width:1024px) {
+
+    main{
+        background-color: chartreuse;
+    }
+    
+}
+
+@media screen and (max-width:912px) {
+
+    main{
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width:820px) {
+
+    main{
+        background-color: cornflowerblue;
+    }
+ img {
+    width: 32%;
+ }
+}
+
+@media screen and (max-width:768px) {
+
+    main{
+        background-color: darkcyan;
+    }
+    img { width: 40%
+    }
+    }
+@media screen and (max-width:540px) {
+
+   main{ background-color: rgb(248, 144, 161);
+   }
+   img { width: 40%
+   }
+}
+
+@media screen and (max-width:412px) {
+
+    main{
+        background-color: darkgray;
+    } img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    main {
+        background-color: red;
+    }
+    img {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:360px) {
+
+    main{
+        background-color: darkslategrey;
+    }
+    img { width: 50%
+    }
+}
+
+@media screen and (max-width:280px) {
+
+    main{
+        background-color: yellow;
+    }
+    img { width: 50%
+    }
+}
+
+
